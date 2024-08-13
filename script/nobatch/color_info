@@ -1,0 +1,92 @@
+
+type_colors <- c('NLN' ='#00BE67', 'ATLN' = "#377EB8", 'ATLNTX' = "#E41A1C")
+c('#00BE67', "#377EB8", "#E41A1C")
+
+
+
+lymph
+    Follicular B_1     Follicular B_2       Marginal B_1       Marginal B_2 
+         "#E69F00"          "#56B4E9"          "#009E73"          "#F0E442" 
+          Plasma_1           Plasma_2   CD4- CD8- T cell   Naive CD4 T cell 
+         "#0072B2"          "#D55E00"          "#CC79A7"          "#666666" 
+               Th1                Th2               Treg gamma delta T cell 
+         "#AD7700"          "#1C91D4"          "#007756"          "#D5C711" 
+  Naive CD8 T cell      CD8 NK T cell            NK cell       Myeloid cell 
+         "#005685"          "#A04700"          "#B14380"          "#4D4D4D" 
+    Dendritic cell      Macrophage M1    Epithelial cell 
+         "#FFBE2D"          "#80C7EF"          "#00F6B3" 
+
+lymph_colors <- c(
+  "Follicular B_1" = "#E69F00",
+  "Follicular B_2" = "#56B4E9",
+  "Marginal B_1" = "#009E73",
+  "Marginal B_2" = "#F0E442",
+  "Plasma_1" = "#0072B2",
+  "Plasma_2" = "#D55E00",
+  "CD4- CD8- T cell" = "#CC79A7",
+  "Naive CD4 T cell" = "#666666",
+  "Th1" = "#AD7700",
+  "Th2" = "#1C91D4",
+  "Treg" = "#007756",
+  "gamma delta T cell" = "#D5C711",
+  "Naive CD8 T cell" = "#005685",
+  "CD8 NK T cell" = "#A04700",
+  "NK cell" = "#B14380",
+  "Myeloid cell" = "#4D4D4D",
+  "Dendritic cell" = "#FFBE2D",
+  "Macrophage M1" = "#80C7EF",
+  "Epithelial cell" = "#00F6B3"
+)
+
+
+
+skin_colors
+
+                       Bulge cell                   Sebaceous gland 
+                        "#E69F00"                         "#56B4E9" 
+            Krt6a- B keratinocyte      Krt6a- Krt79+ B keratinocyte 
+                        "#009E73"                         "#F0E442" 
+           Krt6a- BS keratinocyte             Krt6a- S keratinocyte 
+                        "#0072B2"                         "#D55E00" 
+Hyperproliferative B keratinocyte            Krt79+ BS keratinocyte 
+                        "#CC79A7"                         "#666666" 
+                  BS keratinocyte                    G keratinocyte 
+                        "#AD7700"                         "#1C91D4" 
+                        Adipocyte          Ccl21a+ Endothelial cell 
+                        "#007756"                         "#D5C711" 
+        Cd300lg+ Endothelial cell                        Fibroblast 
+                        "#005685"                         "#A04700" 
+                  Langerhans cell                        Melanocyte 
+                        "#B14380"                         "#4D4D4D" 
+                      Schwan cell                              Treg 
+                        "#FFBE2D"                         "#80C7EF" 
+                             Th17                Proliferating Th17 
+                        "#00F6B3"                         "#F4EB71" 
+                             Th22                           NK cell 
+                        "#06A5FF"                         "#FF8320" 
+
+
+skin_colors <- c(
+  "Bulge cell" = "#E69F00",
+  "Sebaceous gland" = "#56B4E9",
+  "Krt6a- B keratinocyte" = "#009E73",
+  "Krt6a- Krt79+ B keratinocyte" = "#F0E442",
+  "Krt6a- BS keratinocyte" = "#0072B2",
+  "Krt6a- S keratinocyte" = "#D55E00",
+  "Hyperproliferative B keratinocyte" = "#CC79A7",
+  "Krt79+ BS keratinocyte" = "#666666",
+  "BS keratinocyte" = "#AD7700",
+  "G keratinocyte" = "#1C91D4",
+  "Adipocyte" = "#007756",
+  "Ccl21a+ Endothelial cell" = "#D5C711",
+  "Cd300lg+ Endothelial cell" = "#005685",
+  "Fibroblast" = "#A04700",
+  "Langerhans cell" = "#B14380",
+  "Melanocyte" = "#4D4D4D",
+  "Schwan cell" = "#FFBE2D",
+  "Treg" = "#80C7EF",
+  "Th17" = "#00F6B3",
+  "Proliferating Th17" = "#F4EB71",
+  "Th22" = "#06A5FF",
+  "NK cell" = "#FF8320"
+)
